@@ -31,7 +31,7 @@ rem  this script.  It will not be possible to specify a configuration file on th
 rem  command line if _PASS_THROUGH is set. 
 rem If a relative path is specified, please note that the location is based on the 
 rem location.
-set _WRAPPER_CONF_DEFAULT="../conf/%_WRAPPER_BASE%-web.conf"
+set _WRAPPER_CONF_DEFAULT="../conf/%_WRAPPER_BASE%-shipper.conf"
 
 rem Makes it possible to override the Wrapper configuration file by specifying it
 rem  as the first parameter.
